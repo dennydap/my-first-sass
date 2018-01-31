@@ -1,0 +1,45 @@
+/*
+	HTML Tags
+ */
+
+$primary-color: #333;
+
+%default-font {
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+  color: $primary-color;
+}
+
+p {
+	@extend %default-font;
+}
+
+h1 {
+	@extend %default-font;
+}
+
+/*
+	Margins
+ */
+
+@mixin margin-top($radius) {
+	margin-top: $radius !important;
+}
+
+.margin-top-xs {
+	@include margin-top(8px);
+}
+
+.margin-top-sm {
+	@include margin-top(16px);
+}
+
+.margin-top-md {
+	@include margin-top(32px);
+}
+
+.margin-top-lg {
+	@include margin-top(64px);
+}

@@ -1,0 +1,25 @@
+/*
+	HTML Tags
+ */
+p, h1 {
+  font-family: Helvetica, sans-serif; }
+
+body {
+  color: #333; }
+
+/*
+	Margins
+ */
+.margin-top-xs {
+  margin-top: 8px !important; }
+
+.margin-top-sm {
+  margin-top: 16px !important; }
+
+.margin-top-md {
+  margin-top: 32px !important; }
+
+.margin-top-lg {
+  margin-top: 64px !important; }
+
+/*# sourceMappingURL=input.css.map */
